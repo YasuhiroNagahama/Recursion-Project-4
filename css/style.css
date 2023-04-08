@@ -1,0 +1,46 @@
+@charset "UTF-8";
+:root {
+  --primary-color: blue;
+  --dark-blue-color: #1b4668;
+  --danger-color: red;
+  --success-color: green;
+  --warning-color: yellow;
+  --dark-color: black;
+  --white-color: white;
+  --secondary-color: gray;
+}
+
+.contents {
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1080px) {
+  .select-box-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .select-box {
+    margin-top: 0;
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
+.select-box:not(:first-child) {
+  margin-top: 20px;
+}
+@media screen and (min-width: 1080px) {
+  .select-box:not(:first-child) {
+    margin-top: 0;
+  }
+}
+
+.add-pc-btn:hover {
+  opacity: 0.8;
+}
