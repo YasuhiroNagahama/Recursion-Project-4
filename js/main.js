@@ -238,7 +238,7 @@ class DecisionModel {
           );
         }
 
-        currentStorageType = "hdd";
+        storageInfo.currentStorageType = "hdd";
       } else if (storageDevice.value == "ssd") {
         for (let i = 0; i < storageInfo.ssdStorageList.length; i++) {
           storageBox.append(
@@ -254,7 +254,7 @@ class DecisionModel {
           );
         }
 
-        currentStorageType = "ssd";
+        storageInfo.currentStorageType = "ssd";
       }
     });
 
