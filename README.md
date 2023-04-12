@@ -4,7 +4,7 @@ Computer Builder
 
 # URL
 
-https://yasuhironagahama.github.io/Recursion-Project-4/
+https://yasuhironagahama.github.io/Computer-Builder/
 
 # Explain
 
