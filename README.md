@@ -4,7 +4,7 @@ Computer Builder
 
 # URL
 
-https://yasuhironagahama.github.io/Computer-Builder/
+https://yasuhironagahama.github.io/computer-builder/
 
 # Explain
 
